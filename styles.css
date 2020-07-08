@@ -1,0 +1,128 @@
+
+
+
+body{
+  background-color: #f1e3cb;
+  text-align:center;
+  position:relative;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+hr{
+border-style: groove;
+
+}
+/*middle-container*/
+
+h1{
+  font-size: 50px;
+  top:20px;
+  font-family: 'Bree Serif', serif;
+}
+
+
+.titulo{
+margin: 50px auto;
+
+}
+
+.introduçao{
+  width:30%;
+  margin: auto;
+}
+
+.profile img{
+  height:600px;
+  width:600px;
+
+}
+
+/*top-container*/
+
+.top-container{
+
+ position:relative;
+ padding-top:100px;
+}
+
+
+
+.skill-row img{
+
+  width:25%;
+  float:left;
+  margin-right:30px;
+}
+
+.skill-row2 img{
+
+  width:25%;
+  float:right;
+  margin-left:30px;
+}
+
+.skill-row{
+  text-align:left;
+  line-height: 2;
+  margin:70px auto 100px auto;
+  width:50%
+
+}
+.skill-row2{
+  text-align:left;
+  line-height: 2;
+  margin:100px auto 100px auto;
+  width:50%
+}
+
+.conclusao{
+  width:50%;
+  margin:30px auto 50px;
+  line-height: 2;
+}
+
+
+/*bagulho do botao*/
+.btn {
+  background: #ff9a76;
+  background-image: -webkit-linear-gradient(top, #ff9a76, #f7c5a8);
+  background-image: -moz-linear-gradient(top, #ff9a76, #f7c5a8);
+  background-image: -ms-linear-gradient(top, #ff9a76, #f7c5a8);
+  background-image: -o-linear-gradient(top, #ff9a76, #f7c5a8);
+  background-image: linear-gradient(to bottom, #ff9a76, #f7c5a8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #ffeadb;
+  background-image: -webkit-linear-gradient(top, #ffeadb, #f7c5a8);
+  background-image: -moz-linear-gradient(top, #ffeadb, #f7c5a8);
+  background-image: -ms-linear-gradient(top, #ffeadb, #f7c5a8);
+  background-image: -o-linear-gradient(top, #ffeadb, #f7c5a8);
+  background-image: linear-gradient(to bottom, #ffeadb, #f7c5a8);
+  text-decoration: none;
+}
+
+/*bottom-container*/
+.bottom-container{
+padding:50px 0 10px;
+}
+
+a{
+  color:#f69e7b;
+  font-family: 'Fjalla One',  sans-serif;
+  margin: 5px 20px;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#fecb89;
+}
